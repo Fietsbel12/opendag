@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+    }
+    
+    nav {
+        justify-content: center;
+    }
+
+    main .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    main p {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .rooster img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .rooster h3 {
+        font-size: 19px; 
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+}
+
